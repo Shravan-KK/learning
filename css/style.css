@@ -1,0 +1,12 @@
+h1 {
+    background-color: magenta;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+p {
+    color: black;
+    background-color: cyan;
+    border: 1px solid black;
+    text-align: center;
+}

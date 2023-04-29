@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .left,.right {
+        float: left;
+        width: 20%;
+        background-color: chartreuse;
+    }
+    .main {
+        float: left;
+        width: 60%;
+        background-color: blue;
+    }
+    @media screen and (max-width:800px) {
+        .left,.main,.right{
+            width: 100%;
+        } 
+    }
+</style>
+</head>
+<body>
+    <h2>Setting the viewport</h2><hr>
+    <h2>Using the max-width property</h2>
+    <img src="surfing.jpg" style="width: 100%;">
+    <h2>Different images depending on width of browser</h2>
+    <picture>
+        <source srcset="surfing.jpg" media="(max-width:600px)">
+        <source srcset="gallery/images/surfingimage-2.jpg" media="(max-width:1500px)">
+        <source srcset="gallery/images/smallimage.jpg">
+        <img src="gallery/images/surfingimage-2.jpg" alt="flowers">
+        <h2>RESPONSIVE TEXT SIZE</h2>
+        <h1 style="font-size: 10vw;">Hello world</h1>
+    </picture>
+    <h2>Media Queries</h2>
+    <div class="left">
+        <p>Left Content</p>
+    </div>
+    <div class="main">
+        <p>Main content</p>
+    </div>
+    <div class="right">
+        <p>Right Content</p>
+    </div>
+
+    
+</body>
+</html>
