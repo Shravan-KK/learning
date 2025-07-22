@@ -85,7 +85,7 @@
     var_dump($x <=> $y);
     echo "<br>"; 
     ?>
-    <h2>PHP INCREMENT OPERATORS</h2>
+    <h2>PHP INCREMENT AND DECREMENT OPERATORS</h2>
     <?php
     $x=10;
     echo ++$x;
@@ -126,6 +126,7 @@
     if ($x == 100 || $y == 50) {
         echo "Hello world";
     }
+    echo "<br>";
     $x = 100;
     if ($x !== 90 ) {
         echo "Hello world";
@@ -136,6 +137,7 @@
     $txt1 = "Hello";
     $txt2 = " world";
     echo $txt1 . $txt2;
+    echo "<br>";
     $txt1 = "Hello";
     $txt2 = " world";
     $txt1 .= $txt2;
@@ -146,7 +148,7 @@
     echo $status = (empty($user)) ? "anonymous" : "logged in";
     echo "<br>";
     $user = "Renu"
-    echo $status = (empty($user)) ? "anonymous" : "logged in";
+    #echo $status = (empty($user)) ? "anonymous" : "logged in";
     ?>  
 </body>
 </html>

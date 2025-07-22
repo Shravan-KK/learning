@@ -1,0 +1,35 @@
+objective:
+   1.to create an application to store the address data
+requirements:
+   screens
+       1.login page
+       2.add adress page
+       3.address list page
+       4.update address page
+       5.delete address in pop up
+   navigation
+       1.on opening the application login  page must be displayed
+       2.after login the address list page should be displayed . Each record in the list should have view link, edit link and delete link. There should be an add address button at the top right corner.
+       3.on clicking the add address button the add address page should be displayed with save and cancel button. On clicking save button entered data should be saved into the database. On clicking cancel the browser must be redirected to the address list page.
+       4.On clicking the view link a detailed description of the record should be displayed.
+       5.On clicking the edit link the browser must be redirected to the update address page. The form field of the record to be edited should contain the previouly stored data.
+       6.When the delete button is clicked a pop up should be displayed with a message to confirm the user to delete it .The pop up should contain cancel and delete button. When the user clicks the cancel button then the pop up should vanish. When the user clicks the delete button then a pop up should displayed with a cancel button and containing a message that the record is deleted successfully.When the user clicks the cancel button then the pop up should be vanished.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

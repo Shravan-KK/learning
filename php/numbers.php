@@ -24,13 +24,13 @@
     <h2>PHP INFINITY</h2>
     <?php
     $x = 1.9e411;
-    var_dump(is_finite($x));
+    var_dump($x);
     echo "<br>";
     ?> 
     <h2>PHP NAN</h2>
     <?php
     $x = acos(8);
-    var_dump(is_nan($x));
+    var_dump($x);
     ?>
     <h2>PHP NUMERICAL STRINGS</h2>
     <?php
@@ -57,7 +57,7 @@
     echo "<br>";
 
     //Cast string to integer
-    $x = 23465.768;
+    $x = "23465.768";
     $int_cast = (int)$x;
     echo $int_cast;
     ?>

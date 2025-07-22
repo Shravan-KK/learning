@@ -35,6 +35,30 @@
     } else {
         echo "Have a good night!";
     }
+    echo "<br>";
+    $a=200;
+    $b=33;
+    $c=500;
+    if ($a>$b and $a<$c){
+        echo "Both conditions are true";
+    }
+    echo "<br>";
+    echo "Short Hand If:";
+    if ($a<300) $d="Hello";
+    echo $d;
+    echo "<br>";
+    $f=$a<$b?"Hello":"Good bye";
+    echo $f;
+    echo "<br>";
+    echo "Nested if";
+    if ($b>30){
+        echo "Above 30";
+        if ($b>40){
+            echo "Above 40";
+        } else {
+            echo "But not above 40";
+        }
+    }
     ?>
 
 </body>
